@@ -15,7 +15,7 @@ a.circle(-90,200)
 a.forward(180)
 a.end_fill()
 a.setheading(180)
-a.up()
+a.up()  # it makes pen up
 a.forward(200)
 a.down()
 a.left(40)
@@ -37,7 +37,7 @@ a.setheading(220)
 a.forward(180)  # moves turtle forward
 a.circle(90,200)
 a.setheading(300)
-a.circle(90, 200)
+a.circle(90, 200)# it creates a semi-circle with 90 radius in anti clock wise
 a.forward(180)
 a.end_fill()
 a.hideturtle() # hides the turtle from the drawing
