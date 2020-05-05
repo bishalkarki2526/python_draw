@@ -1,4 +1,4 @@
-import turtle
+import turtle   # importing turtle module
 a = turtle.Pen() #initalize a pen object
 win = turtle.Screen() # initalize a screen object
 win.title("Double heart draw")
@@ -7,13 +7,13 @@ a.speed(1) # speed set to slow
 a.color('red')
 a.begin_fill()
 a.color("Blue")
-a.setheading(140)
+a.setheading(140) # set the head of turtle in which direction you want
 a.forward(180)
 a.circle(-90,200)
 a.setheading(60)
 a.circle(-90,200)
 a.forward(180)
-a.end_fill()
+a.end_fill()# it stops filling the color
 a.setheading(180)
 a.up()  # it makes pen up
 a.forward(200)
