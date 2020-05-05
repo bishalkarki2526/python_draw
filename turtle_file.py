@@ -1,7 +1,7 @@
 import turtle
 a = turtle.Pen() #initalize a pen object
 win = turtle.Screen() # initalize a screen object
-win.title("Heart")
+win.title("Double heart draw")
 win.bgcolor("black")
 a.speed(1)
 a.color('red')
