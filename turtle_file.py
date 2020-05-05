@@ -1,5 +1,5 @@
 import turtle   # importing turtle module
-a = turtle.Pen() #initalize a pen object
+a = turtle.Turtle() #initalize a pen object
 win = turtle.Screen() # initalize a screen object
 win.title("Double heart draw")
 win.bgcolor("black")
@@ -28,7 +28,7 @@ a.setheading(35)
 
 a.forward(500)
 a.up()
-a.home()
+a.home() # this gives turtle chance to go home
 a.down()
 
 a.begin_fill() # begin to fill color
