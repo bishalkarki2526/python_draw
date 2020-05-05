@@ -3,7 +3,7 @@ a = turtle.Pen() #initalize a pen object
 win = turtle.Screen() # initalize a screen object
 win.title("Double heart draw")
 win.bgcolor("black")
-a.speed(1)
+a.speed(1) # speed set to slow
 a.color('red')
 a.begin_fill()
 a.color("Blue")
@@ -34,10 +34,10 @@ a.down()
 a.begin_fill()
 a.fillcolor("Red")
 a.setheading(220)
-a.forward(180)
+a.forward(180)  # moves turtle forward
 a.circle(90,200)
 a.setheading(300)
 a.circle(90, 200)
 a.forward(180)
 a.end_fill()
-a.hideturtle()
+a.hideturtle() # hides the turtle from the drawing
