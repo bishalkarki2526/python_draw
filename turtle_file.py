@@ -28,7 +28,8 @@ a.setheading(35)
 
 a.forward(500)
 a.up()
-a.home() # this gives turtle chance to go home
+a.home() #  it puts the turtle to home
+
 a.down()
 
 a.begin_fill() # begin to fill color
