@@ -31,8 +31,8 @@ a.up()
 a.home()
 a.down()
 
-a.begin_fill()
-a.fillcolor("Red")
+a.begin_fill() # begin to fill color
+a.fillcolor("Red") # which color you like
 a.setheading(220)
 a.forward(180)  # moves turtle forward
 a.circle(90,200)
