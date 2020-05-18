@@ -26,11 +26,11 @@ a.forward(5)
 a.backward(5)# moves backward(distance in pixel)
 a.setheading(35)
 
-a.forward(500)
+a.forward(500) # takes 500 pixel ahead
 a.up()
 a.home() #  it puts the turtle to home
 
-a.down()
+a.down() # it slows down the turtle
 
 a.begin_fill() # begin to fill color
 a.fillcolor("Red") # which color you like
