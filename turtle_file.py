@@ -40,5 +40,5 @@ a.circle(90,200)
 a.setheading(300)
 a.circle(90, 200)# it creates a semi-circle with 90 radius in anti clock wise
 a.forward(180)
-a.end_fill()
+a.end_fill() #end the filling of color
 a.hideturtle() # hides the turtle from the drawing
