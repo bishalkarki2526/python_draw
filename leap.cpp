@@ -2,8 +2,8 @@
 using namespace std;
 
 int main()
-//This can be the new comment
-//The comment is here>>>>>>> 3211f6e04905167c14bc849d3c04c40b87967372
+
+
 {
     int year; // This is the year in integer form
 
@@ -25,5 +25,5 @@ int main()
     else
         cout << year << " is not a leap year.";
 
-    return 0;
+    return 0; // return something find it yourself
 }
