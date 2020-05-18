@@ -13,7 +13,7 @@ a.circle(-90,200)
 a.setheading(60)
 a.circle(-90,200)
 a.forward(180)
-a.end_fill()# it stops filling the color
+a.end_fill() # it stops filling the color
 a.setheading(180)
 a.up()  # it makes pen up
 a.forward(200)
@@ -23,7 +23,7 @@ a.forward(10)
 a.backward(10)
 a.right(400) # goes right (angle in degrees)
 a.forward(5)
-a.backward(5)# moves backward(distance in pixel)
+a.backward(5) # moves backward(distance in pixel)
 a.setheading(35)
 
 a.forward(500) # takes 500 pixel ahead
@@ -38,7 +38,7 @@ a.setheading(220)
 a.forward(180)  # moves turtle forward
 a.circle(90,200)
 a.setheading(300)
-a.circle(90, 200)# it creates a semi-circle with 90 radius in anti clock wise
+a.circle(90, 200) # it creates a semi-circle with 90 radius in anti clock wise
 a.forward(180)
 a.end_fill() #end the filling of color
 a.hideturtle() # hides the turtle from the drawing
